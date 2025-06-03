@@ -6,7 +6,7 @@ from tkinter import filedialog, Tk, Label, Button
 from PIL import Image, ImageTk
 import matplotlib.pyplot as plt
 
-from models.dlinknet3 import DLinkNet34
+from model.dlinknet3 import DLinkNet34
 from postprocess import postprocess_mask
 from visualize import visualize_sample
 
