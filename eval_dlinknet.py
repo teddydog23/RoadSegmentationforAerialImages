@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # === Cấu hình ===
-model_path = "checkpoints/model_best.pth"
+model_path = "checkpoints/dlinknet_model_best.pth"
 image_root = "data/1024/images"
 mask_root = "data/1024/masks"
 csv_path = "data/1024/split.csv"

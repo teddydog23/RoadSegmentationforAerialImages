@@ -9,9 +9,9 @@ from visualize import visualize_sample
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # === Cấu hình ===
-model_path = "checkpoints/model_best.pth"
+model_path = "checkpoints/dlinknet_model_best.pth"
 input_dir = "inference_input"
-output_dir = "inference_output"
+output_dir = "inference_output_dlinknet"
 os.makedirs(output_dir, exist_ok=True)
 
 threshold = 0.5
