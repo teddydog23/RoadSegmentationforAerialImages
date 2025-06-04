@@ -2,7 +2,7 @@ import os
 import cv2
 import numpy as np
 import torch
-from models.dlinknet3 import DLinkNet34
+from model.dlinknet3 import DLinkNet34
 from postprocess import postprocess_mask
 from visualize import visualize_sample
 

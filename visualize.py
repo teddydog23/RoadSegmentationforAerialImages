@@ -44,25 +44,3 @@ def visualize_sample(image, mask=None, pred=None, overlay_alpha=0.4):
 
     plt.tight_layout()
     plt.show()
-
-# def visualize_sample(image, gt=None, pred=None):
-#     """
-#     Hiển thị ảnh gốc, ground truth và prediction mask
-#     """
-#     plt.figure(figsize=(15, 5))
-#     plt.subplot(1, 3, 1)
-#     plt.imshow(image)
-#     plt.title("Original Image")
-
-#     if gt is not None:
-#         plt.subplot(1, 3, 2)
-#         plt.imshow(gt, cmap='gray')
-#         plt.title("Ground Truth")
-
-#     if pred is not None:
-#         plt.subplot(1, 3, 3)
-#         plt.imshow(pred, cmap='gray')
-#         plt.title("Prediction")
-
-#     plt.tight_layout()
-#     plt.show()

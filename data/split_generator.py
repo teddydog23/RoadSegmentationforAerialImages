@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-CSV_PATH = 'data/dataset/split.csv'
+CSV_PATH = 'data/1024/split.csv'
 
 df = pd.read_csv(CSV_PATH)
 

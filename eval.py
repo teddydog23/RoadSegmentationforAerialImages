@@ -3,7 +3,7 @@ import torch
 import cv2
 import numpy as np
 import pandas as pd
-from models.dlinknet3 import DLinkNet34
+from model.dlinknet3 import DLinkNet34
 from utils.metrics import compute_metrics
 from visualize import visualize_sample
 from postprocess import postprocess_mask
@@ -21,9 +21,9 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # === Cấu hình ===
 model_path = "checkpoints/model_best.pth"
-image_root = "data/dataset/images"
-mask_root = "data/dataset/masks"
-csv_path = "data/dataset/split.csv"
+image_root = "data/1024/images"
+mask_root = "data/1024/masks"
+csv_path = "data/1024/split.csv"
 threshold = 0.35
 num_images_to_show = 5
 
