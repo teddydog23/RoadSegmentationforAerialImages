@@ -2,7 +2,7 @@
 
 **Capstone Project - IT4343E: Computer Vision**
 
-Lecturer: [Ph. D. Trần Nguyên Ngọc]([https://soict.hust.edu.vn/pgs-ts-le-thanh-huong.html](https://soict.hust.edu.vn/tran-nguyen-ngoc.html))
+Lecturer: [Ph. D. Trần Nguyên Ngọc](https://soict.hust.edu.vn/tran-nguyen-ngoc.html)
 
 Date: May 2025 - Semester 20242 - HUST
 
