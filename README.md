@@ -21,7 +21,7 @@ This repository implements road segmentation from aerial images using deep learn
 
 **- 🏗️ Architectures:** DLinkNet, SegFormer-B1
 
-**- 🚀 Performance:** Optimized for IoU (Intersection-over-Union) and F1-score on datasets like DeepGlobe or custom aerial imagery.
+**- 🚀 Performance:** Optimized for Dice Score on a combination dataset of DeepGlobe and Massachusetts Aerial Images.
 
 **- 🔧 Tech Stack:** PyTorch, Hugging Face Transformers (for SegFormer), OpenCV for pre/post-processing.
 
